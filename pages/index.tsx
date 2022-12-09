@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
 import About from '../components/About'
+import Skills from '../components/Skills/Skills'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar/>
       <Profile/>
       <About/>
+      <Skills/>
       
     </div>
   )
