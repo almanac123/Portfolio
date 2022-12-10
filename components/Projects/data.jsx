@@ -8,28 +8,28 @@ const data=[
         id:1,
         name:'Project Incofibs',
         img:incofibs,
-        url:'/incofibs',
+        url:'https://github.com/almanac123/project-incofibs',
         tech:'Reactjs'
     },
     {
         id:1,
         name:'Portfolio',
         img:portfolio,
-        url:'/portfolio',
+        url:'https://github.com/almanac123/Portfolio',
         tech:'Nextjs'
     },
     {
         id:1,
         name:'Atmos',
         img:weather,
-        url:'/weather',
+        url:'https://github.com/almanac123/Atmos',
         tech:'Reactjs'
     },
     {
         id:1,
         name:'Musicfy',
         img:musicfy,
-        url:'/musicfy',
+        url:'https://github.com/almanac123/MUSICFY-USING-JS',
         tech:'Javascript'
     },
 ]

@@ -9,7 +9,7 @@ const Project = ({img,tech,name,url}) => {
         <div className='' >
             <h3 className='text-xl my-2 text-white tracking-wider text-center'>{name}</h3>
             <p className=' pt-2 text-[#81e6cedd] text-center'>{tech}</p>
-            <Link href={url}>
+            <Link href={url} target='_blank'>
                 <p className='text-center py-3 rounded-xl bg-[#81e6cedd] text-black font-semibold text-lg cursor-pointer w-28 h-12 items-center mx-auto'>Learn More</p>
             </Link>
         </div>

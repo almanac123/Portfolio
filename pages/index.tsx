@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Skills from '../components/Skills/Skills'
 import Projects from '../components/Projects/Projects'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
