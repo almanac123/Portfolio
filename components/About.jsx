@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import dp from '../public/assets/dp6.jpg'
 
 const About = () => {
     return (
@@ -20,7 +21,8 @@ const About = () => {
 
           </div>
           <div className='w-full h-full m-auto  rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300 mx-auto'>
-            <Image src='/../public/assets/B4.png' width='264' height='264' className='rounded-xl' alt='oops' />
+            {/* <Image src={dp} width='264' height='264' className='rounded-xl' alt='oops' /> */}
+
           </div>
         </div>
       </div>
