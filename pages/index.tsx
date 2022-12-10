@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
 import About from '../components/About'
 import Skills from '../components/Skills/Skills'
+import Projects from '../components/Projects/Projects'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Profile/>
       <About/>
       <Skills/>
+      <Projects/>
       
     </div>
   )
