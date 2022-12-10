@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className=" fixed w-full shadow-xl z-[10000] h-20 ">
+    <div className=" fixed w-full shadow-xl z-[100] h-20 ">
       <div className="flex justify-center items-center w-full h-full px-2 2xl:px-16 my-2  ">
         <Image src="/../public/assets/A6.png" alt="/" width="90" height="40" />
 

@@ -4,13 +4,13 @@ import Link from 'next/link'
 
 const Project = ({img,tech,name,url}) => {
     return (
-        <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
-        <Image className='rounded-xl group-hover:opacity-10' src={img} alt='/' /> 
-        <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-            <h3 className='text-2xl text-white tracking-wider text-center'>{name}</h3>
-            <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
+        <div className='relative  items-center justify-center h-auto w-full shadow-xl rounded-xl '>
+        <Image className='rounded-xl shadow-2xl border-4' src={img} alt='/' /> 
+        <div className='' >
+            <h3 className='text-xl my-2 text-white tracking-wider text-center'>{name}</h3>
+            <p className=' pt-2 text-[#81e6cedd] text-center'>{tech}</p>
             <Link href={url}>
-                <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                <p className='text-center py-3 rounded-xl bg-[#81e6cedd] text-black font-semibold text-lg cursor-pointer w-28 h-12 items-center mx-auto'>Learn More</p>
             </Link>
         </div>
      </div>

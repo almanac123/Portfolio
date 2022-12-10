@@ -20,7 +20,7 @@ const data=[
     },
     {
         id:1,
-        name:'Weather',
+        name:'Atmos',
         img:weather,
         url:'/weather',
         tech:'Reactjs'
