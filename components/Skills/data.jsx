@@ -4,10 +4,10 @@ import Html from '../../public/assets/skills/html.png';
 import Css from '../../public/assets/skills/css.png';
 import Javascript from '../../public/assets/skills/javascript.png';
 import ReactImg from '../../public/assets/skills/reactImg.svg';
-import Tailwind from '../../public/assets/skills/tailwind.svg';
+import Tailwind from '../../public/assets/skills/Tailwind.svg';
 import Github from '../../public/assets/skills/github.png';
-import NextJS from '../../public/assets/skills/nextjs.svg'
-import Bootstrap from '../../public/assets/skills/bootstrap.svg'
+import NextJS from '../../public/assets/skills/NextJS.svg'
+import Bootstrap from '../../public/assets/skills/Bootstrap.svg'
 const data=[
     {
         id:1,
