@@ -13,7 +13,7 @@ const Contact = () => {
               rel='noreferrer'
             >
               <div className='rounded-full  bg-white  shadow-gray-400  cursor-pointer hover:scale-110 ease-in duration-300 '>
-                <Image src='/../public/assets/github3.png' alt='oops' width='48' height ='48'/>
+                <Image src='https://res.cloudinary.com/dnqipwdsl/image/upload/v1670736923/github3_evmbov.png' alt='oops' width='48' height ='48'/>
                </div>
             </a>
             <a
@@ -22,12 +22,12 @@ const Contact = () => {
               rel='noreferrer'
             >
               <div className='rounded-full  bg-white shadow-gray-600  cursor-pointer hover:scale-110 ease-in duration-300 p-3'>
-              <Image src='/../public/assets/linkedin-4.png' alt='oops' width='28' height ='28'/>
+              <Image src='https://res.cloudinary.com/dnqipwdsl/image/upload/v1670736924/linkedin-4_xwbfj3.png' alt='oops' width='28' height ='28'/>
               </div>
             </a>
             <Link href='/#contact'>
               <div className='rounded-full  p-2 shadow-gray-400  cursor-pointer hover:scale-110 ease-in duration-300 bg-white'>
-              <Image src='/../public/assets/mail.png' alt='oops' width='32' height ='32'/>
+              <Image src='https://res.cloudinary.com/dnqipwdsl/image/upload/v1670736924/mail_loh72f.png' alt='oops' width='32' height ='32'/>
               </div>
             </Link>
           </div>  

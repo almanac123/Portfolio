@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
 import dp from '../public/assets/dp6.jpg'
-
 const About = () => {
     return (
       <div id='about' className='w-full md:h-96 p-2 flex items-center '>
@@ -21,7 +20,7 @@ const About = () => {
 
           </div>
           <div className='w-full h-full m-auto  rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300 mx-auto'>
-            {/* <Image src={dp} width='264' height='264' className='rounded-xl' alt='oops' /> */}
+            <Image src='https://res.cloudinary.com/dnqipwdsl/image/upload/v1670736900/B4_gomnlm.png' width='264' height='264' className='rounded-xl' alt='oops' />
 
           </div>
         </div>
